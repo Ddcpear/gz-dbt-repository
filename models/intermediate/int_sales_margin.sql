@@ -16,8 +16,13 @@ ON products.products_id = sales.products_id
 )
 
 SELECT 
+    date_date,
+    orders_id,
+    revenue,
+    quantity,
     ROUND(quantity * purchase_price,2) AS purchase_cost,
     ROUND(revenue - purchase_price,2) AS margin,
+    
 
     FROM sub
 
