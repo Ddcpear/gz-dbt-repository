@@ -22,7 +22,7 @@ SELECT
     revenue,
     quantity,
     ROUND(quantity * purchase_price,2) AS purchase_cost,
-    ROUND(revenue - purchase_price,2) AS margin,
+    ROUND(revenue - (quantity * purchase_price),2) AS margin,
     
 
     FROM sub
