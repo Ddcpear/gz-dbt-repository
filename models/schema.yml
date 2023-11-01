@@ -25,6 +25,7 @@ sources:
         
         columns:
           - name: sales_id
+            description: identifire
           - name: date_date
           - name: orders_id
           - name: pdt_id

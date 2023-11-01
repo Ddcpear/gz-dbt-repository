@@ -1,3 +1,4 @@
+   
 SELECT
     date_date
    ,COUNT(orders_id) AS nb_transactions
@@ -9,3 +10,4 @@ SELECT
 
    GROUP BY date_date
    ORDER BY date_date DESC
+
