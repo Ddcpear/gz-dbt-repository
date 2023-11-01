@@ -18,6 +18,7 @@ ON products.products_id = sales.products_id
 SELECT 
     date_date,
     orders_id,
+    products_id,
     revenue,
     quantity,
     ROUND(quantity * purchase_price,2) AS purchase_cost,
